@@ -1,0 +1,4 @@
+Write a procedure "insert-and" taht takes a sentence of items and returns a new sentence with an "and" in the right place
+
+(define (insert-and wd)
+  (se (bl wd) 'and (last wd)))

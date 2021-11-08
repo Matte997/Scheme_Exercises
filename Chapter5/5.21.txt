@@ -1,0 +1,5 @@
+Write a procedure "query" that turns a statement into a question by swapping the first two words and adding a question
+mark to the last word
+
+(define (query wd)
+  (se (first (bf wd)) (first wd) (word (last wd) '?))) 

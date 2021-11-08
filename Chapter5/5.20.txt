@@ -1,0 +1,4 @@
+Define a procedure to find somebody's middle names
+
+(define (middle-names wd)
+  (se (bf (bl wd))))
