@@ -1,0 +1,6 @@
+Write a procedure to compute the tip you should leave at a restaurant. It should take the total bill as its argument
+and return the amount of the tip. It should tip by 15%, but it should know to round up up so that the total amount
+of money you leave is a whole number of dollars.
+
+(define (tip amount)
+  (ceiling(* amount (/ 15 100))))

@@ -1,0 +1,5 @@
+Define a procedure "discount" that takes two arguments; an item's initial price and a percentage discount. It should return the new price
+
+(define (discount initialPrice percentage)
+  (- initialPrice (* initialPrice (/ percentage 100 ))))
+

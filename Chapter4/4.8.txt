@@ -1,0 +1,4 @@
+Write a procedure "scientific" that takes two argument, a number and an exponent of 10, and returns the correspoding value
+
+(define (scientific num exp)
+  (* num (expt 10 exp)))

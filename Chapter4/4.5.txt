@@ -1,0 +1,8 @@
+Write a procedure to convert a temperature from Fahrenheit to Celsius, and another to convert in the other direction.
+
+(define (fahrenheitToCelsius deg)
+  (/ (- deg 32) 1.8))
+
+(define (celsiusToFahrenheit deg)
+  (+ (* deg 1.8) 32))
+
